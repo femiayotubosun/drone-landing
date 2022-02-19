@@ -9,5 +9,9 @@
 .App {
   width: 100vw;
   min-height: 100vh;
-  background: #0d0d0e;
+  background: #f3f6fd;
+  font-family: var(--font);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -1,0 +1,12 @@
+.drone__button {
+  padding: 0.8rem 2rem;
+  font-family: var(--font);
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  font-size: 11px;
+}
+
+.drone__button:hover {
+  cursor: pointer;
+}

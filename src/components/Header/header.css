@@ -1,0 +1,122 @@
+.drone__header {
+  width: 90%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.drone__header__logo {
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.drone__header:hover {
+  cursor: pointer;
+}
+
+.drone__header__logo svg {
+  margin-right: 0.5rem;
+}
+
+.drone__header__nav a {
+  text-decoration: none;
+  color: var(--dark-blue);
+}
+
+.drone__header__nav a:hover {
+  color: var(--light-blue);
+}
+
+.drone__header__nav a:not(:first-child) {
+  margin-left: 3rem;
+}
+
+.drone__header button {
+  font-size: 15px;
+}
+
+.drone__header__hamburger {
+  position: absolute;
+  right: 2rem;
+  display: none;
+  color: var(--dark-blue);
+}
+
+.drone__header__mobile-nav {
+  background: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 3.6rem;
+  right: 1rem;
+  padding: 2rem 5rem 2.5rem 1rem;
+  z-index: 99;
+}
+
+.drone__header__mobile-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.drone__header__mobile-nav a:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 1020px) {
+  .drone__header {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .drone__header__nav a:not(:first-child) {
+    margin-left: 2rem;
+  }
+}
+@media screen and (max-width: 890px) {
+  .drone__header {
+    padding-top: 1rem;
+    font-size: 12px;
+  }
+  .drone__header__nav {
+    display: none;
+  }
+
+  .drone__header__buttons {
+    margin-right: 3rem;
+  }
+
+  .drone__header__buttons button:first-child {
+    display: none;
+  }
+
+  .drone__header button {
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+  }
+
+  .drone__header__logo {
+    margin-left: 2rem;
+  }
+
+  .drone__header__hamburger {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .drone__header__logo {
+    margin-left: 1rem;
+  }
+
+  .drone__header__hamburger {
+    right: 1rem;
+  }
+
+  .drone__header__buttons {
+    margin-right: 2rem;
+  }
+}
