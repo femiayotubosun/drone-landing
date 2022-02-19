@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap");
+:root {
+  --bg: #f3f5fc;
+  --dark-blue: #0a1329;
+  --light-blue: #315bc7;
+  --font: "Rubik", sans-serif;
+}
+
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  background: #0d0d0e;
+}
