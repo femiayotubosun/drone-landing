@@ -1,0 +1,29 @@
+.drone__video {
+  width: 100vw;
+  height: 700px;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.drone__video video {
+  height: 100%;
+  width: 90%;
+  object-fit: cover;
+  border-radius: 1rem;
+  box-shadow: 10px 4px 5px 0px rgba(0, 0, 0, 0.07);
+  -webkit-box-shadow: 10px 4px 5px 0px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 10px 4px 5px 0px rgba(0, 0, 0, 0.07);
+}
+
+@media screen and (max-width: 550px) {
+  .drone__video {
+    padding: 1rem;
+    height: 500px;
+  }
+  .drone__video video {
+    width: 100%;
+  }
+}
