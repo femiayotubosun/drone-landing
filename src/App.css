@@ -6,8 +6,14 @@
   --font: "Rubik", sans-serif;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   background: #f3f6fd;
   font-family: var(--font);

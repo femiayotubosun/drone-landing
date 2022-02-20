@@ -70,13 +70,13 @@
   .drone__header {
     width: 90%;
   }
-}
-@media screen and (max-width: 900px) {
+
   .drone__header__nav a:not(:first-child) {
     margin-left: 2rem;
   }
 }
-@media screen and (max-width: 890px) {
+
+@media screen and (max-width: 910px) {
   .drone__header {
     padding-top: 1rem;
     font-size: 12px;

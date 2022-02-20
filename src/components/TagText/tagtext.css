@@ -1,0 +1,13 @@
+.drone__tag-text {
+  padding: 0.5rem 0.8rem;
+  background: #c20048;
+  font-size: 13px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.drone__tag-text svg {
+  margin-right: 0.7rem;
+}
