@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { GiDeliveryDrone, GiHamburgerMenu } from "react-icons/gi";
+import { GiDeliveryDrone } from "react-icons/gi";
 import { FiMenu, FiX } from "react-icons/fi";
 import Button from "../Button/Button";
 import NavItems from "../NavItems/NavItems";

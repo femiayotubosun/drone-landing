@@ -1,0 +1,20 @@
+.drone__linklist {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.drone__linklist a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+}
+
+.drone__linklist h5 {
+  margin-bottom: 2rem;
+}
+
+.drone__linklist li {
+  text-decoration: none;
+  margin-bottom: 1rem;
+}

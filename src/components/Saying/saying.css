@@ -2,10 +2,11 @@
   width: 100%;
   padding: 5rem;
   color: var(--dark-blue);
+  padding-bottom: 10rem;
 }
 
 .drone__saying h2 {
-  font-size: 45px;
+  font-size: 38px;
   width: 35%;
   text-transform: capitalize;
   line-height: 4rem;
@@ -29,7 +30,13 @@
   }
 
   .drone__saying {
-    padding: 0.5rem;
+    padding: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .drone__saying h2 {
+    width: 80%;
+    margin-bottom: 3rem;
   }
 }
 
@@ -42,5 +49,10 @@
   }
   .drone__saying__cards-container {
     grid-template-columns: 1fr;
+  }
+
+  .drone__saying {
+    padding: 0rem;
+    margin-bottom: 3rem;
   }
 }
