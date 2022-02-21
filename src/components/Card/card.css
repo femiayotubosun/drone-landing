@@ -1,0 +1,56 @@
+.drone__card {
+  border: 1px solid #c0c0c0;
+  height: 450px;
+  width: 350px;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  color: var(--dark-blue);
+}
+
+.drone__card-img {
+  height: 200px;
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.drone__card-img img {
+  width: 95%;
+  height: 95%;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.drone__card h4 {
+  margin-bottom: 1rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.drone__card h3 {
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+
+.drone__card p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+@media screen and (max-width: 750px) {
+  .drone__card h4 {
+    font-size: 18px;
+  }
+
+  .drone__card h3 {
+    font-size: 25px;
+  }
+
+  .drone__card p {
+    font-size: 16px;
+  }
+}

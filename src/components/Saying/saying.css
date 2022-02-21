@@ -1,0 +1,46 @@
+.drone__saying {
+  width: 100%;
+  padding: 5rem;
+  color: var(--dark-blue);
+}
+
+.drone__saying h2 {
+  font-size: 45px;
+  width: 35%;
+  text-transform: capitalize;
+  line-height: 4rem;
+  margin-bottom: 5rem;
+}
+
+.drone__saying__cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+@media screen and (max-width: 1150px) {
+  .drone__saying__cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+  .drone__new__cards-container div:nth-child(2) {
+    margin: 0;
+  }
+
+  .drone__saying {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .drone__saying h2 {
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+  }
+  .drone__saying__cards-container {
+    grid-template-columns: 1fr;
+  }
+}

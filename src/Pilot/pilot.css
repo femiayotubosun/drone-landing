@@ -1,0 +1,44 @@
+.drone__pilot {
+  background: #fff;
+  width: 350px;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ebebeb;
+}
+
+.drone__pilot > p {
+  height: 50%;
+  margin-bottom: 2rem;
+  line-height: 1.7rem;
+}
+
+.drone__pilot-bottom {
+  display: flex;
+  width: 100%;
+  min-height: 55px;
+  align-items: center;
+}
+
+.drone__pilot-bottom img {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.drone__pilot-bottom > div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+}
+
+.drone__pilot-bottom > div h5 {
+  font-size: 17px;
+  margin-bottom: 0.5rem;
+}
+.drone__pilot-bottom > div p {
+  font-size: 15px;
+  color: var(--gray);
+}
