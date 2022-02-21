@@ -1,7 +1,6 @@
 import React from "react";
 import "./feature.css";
 
-import drone from "../../assets/images/drone.jpg";
 const Feature = ({ background, header, text }) => {
   return (
     <div
